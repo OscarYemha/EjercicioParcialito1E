@@ -29,7 +29,7 @@ function mostrar()
 			alert("El precio debe estar estre 0 y 1000");
 		}else{
 			if(i===0){
-				precio = precioMayor;
+				precioMayor = precio;
 				i = 1;
 			}
 			if(precio>precioMayor){
@@ -43,5 +43,4 @@ function mostrar()
 	}while(respuesta==="si");
 
 	alert("El articulo de mayor precio es "  );
-
 }
